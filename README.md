@@ -1,6 +1,12 @@
 # FilterFlowLayout
-含有过滤的流式布局, 参考[FlowLayout](https://github.com/blazsolar/FlowLayout)
+含有过滤功能的流式布局, 参考[FlowLayout](https://github.com/blazsolar/FlowLayout)
 
+- 可以去除宽度不在范围(比例或真实值)内的子view
+- 可以设置最大行数
+- 可以添加组件间水平间距
+- 可以添加行间距
+
+![截图](./filter-flow-layout-small.png)
 ## 系统要求
 Android 4.0以上
 
@@ -44,6 +50,6 @@ Android 4.0以上
 
 ## 注意事项
 
-- xml中同时设置宽度的比例与具体值时，比例的优先级高于真实值。
+- xml中同时设置宽度的比例与具体值时，比例(ratio)的优先级高于真实值。
 - 宽度都不设置时，最大宽度为FlowLayout的宽度
 
