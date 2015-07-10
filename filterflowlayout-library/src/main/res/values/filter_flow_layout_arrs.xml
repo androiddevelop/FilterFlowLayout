@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FilterFlowLayout">
+        <attr name="android:gravity"/>
+        <attr name="android:layout_gravity"/>
+        <attr name="minWidthRatio" format="float"/>
+        <attr name="maxWidthRatio" format="float"/>
+        <attr name="minWidth" format="dimension"/>
+        <attr name="maxWidth" format="dimension"/>
+        <attr name="maxLines" format="integer"/>
+        <attr name="horizontalGap" format="dimension"/>
+        <attr name="verticalGap" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FilterFlowLayout.iml" filepath="$PROJECT_DIR$/FilterFlowLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filterflowlayout-example/filterflowlayout-example.iml" filepath="$PROJECT_DIR$/filterflowlayout-example/filterflowlayout-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filterflowlayout-library/filterflowlayout-library.iml" filepath="$PROJECT_DIR$/filterflowlayout-library/filterflowlayout-library.iml" />
+    </modules>
+  </component>
+</project>
