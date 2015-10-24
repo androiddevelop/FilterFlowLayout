@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FilterFlowLayout.iml" filepath="$PROJECT_DIR$/FilterFlowLayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/filterflowlayout-example/filterflowlayout-example.iml" filepath="$PROJECT_DIR$/filterflowlayout-example/filterflowlayout-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/filterflowlayout-library/filterflowlayout-library.iml" filepath="$PROJECT_DIR$/filterflowlayout-library/filterflowlayout-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filter-flow-layout/filter-flow-layout.iml" filepath="$PROJECT_DIR$/filter-flow-layout/filter-flow-layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filter-flow-layout-example/filter-flow-layout-example.iml" filepath="$PROJECT_DIR$/filter-flow-layout-example/filter-flow-layout-example.iml" />
     </modules>
   </component>
 </project>

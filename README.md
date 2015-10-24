@@ -11,7 +11,14 @@
 Android 4.0以上
 
 ## 快速使用
-    <me.codeboy.android.lib.FilterFlowLayout
+
+build.gradle加入dependencies
+
+    compile 'me.codeboy.android:filter-flow-layout:1.0.1@aar'
+
+引用布局
+
+    <me.codeboy.android.filterflowlayout.FilterFlowLayout
         xmlns:cb="http://schemas.android.com/apk/res-auto"
         android:id="@+id/filterFlowLayout"
         android:layout_width="match_parent"
