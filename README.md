@@ -14,7 +14,7 @@ Android 4.0以上
 
 build.gradle加入dependencies
 
-    compile 'me.codeboy.android:filter-flow-layout:1.0.1@aar'
+    compile 'me.codeboy.android:filter-flow-layout:1.0.1'
 
 引用布局
 

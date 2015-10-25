@@ -5,7 +5,7 @@ import android.os.Message;
 import android.view.Gravity;
 
 import me.codeboy.android.common.CBActivity;
-import me.codeboy.android.lib.FilterFlowLayout;
+import me.codeboy.android.filterflowlayout.FilterFlowLayout;
 
 
 /**
