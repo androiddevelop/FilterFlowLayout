@@ -59,4 +59,3 @@ build.gradle加入dependencies
 
 - xml中同时设置宽度的比例与具体值时，比例(ratio)的优先级高于真实值。
 - 宽度都不设置时，最大宽度为FlowLayout的宽度
-
