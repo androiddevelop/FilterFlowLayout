@@ -10,7 +10,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
-        versionName "1.0.1"
+        versionName "1.0.3"
     }
     buildTypes {
         release {
@@ -20,11 +20,10 @@ android {
     }
 }
 
-version = "1.0.1"
+version = "1.0.3"
 def siteUrl = 'https://github.com/androiddevelop/AlignTextView'
 def gitUrl = 'https://github.com/androiddevelop/AlignTextView.git'
 group = "me.codeboy.android"
-archivesBaseName = "filter-flow-layout"
 
 install {
     repositories.mavenInstaller {
@@ -33,6 +32,7 @@ install {
             project {
                 packaging 'aar'
                 name 'filter-flow-layout'
+                description 'Android Filter Flow Layout'
                 url siteUrl
                 licenses {
                     license {
@@ -42,7 +42,7 @@ install {
                 }
                 developers {
                     developer {
-                        id 'yuedong'
+                        id 'codeboy'
                         name 'yuedong'
                         email 'androiddevelop@qq.com'
                     }
@@ -78,6 +78,7 @@ artifacts {
     archives sourcesJar
 }
 
+
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 bintray {
@@ -91,5 +92,18 @@ bintray {
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
         publish = true
+
+        version {
+            gpg {
+                sign = true
+                passphrase = properties.getProperty("bintray.gpg.password")
+            }
+            mavenCentralSync {
+                sync = true
+                user = properties.getProperty("bintray.oss.user")
+                password = properties.getProperty("bintray.oss.password")
+                close = '1'
+            }
+        }
     }
 }
