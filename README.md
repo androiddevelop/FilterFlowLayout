@@ -1,5 +1,11 @@
-# FilterFlowLayout
-含有过滤功能的流式布局, 参考[FlowLayout](https://github.com/blazsolar/FlowLayout)
+FilterFlowLayout
+---
+
+#### **含有过滤功能的流式布局**
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/me.codeboy.android/filter-flow-layout/badge.svg)](https://maven-badges.herokuapp.com/maven-central/me.codeboy.android/filter-flow-layout)
+
+参考[FlowLayout](https://github.com/blazsolar/FlowLayout)
 
 - 可以去除宽度不在范围(比例或真实值)内的子view
 - 可以设置最大行数
@@ -7,6 +13,7 @@
 - 可以添加行间距
 
 ![截图](./filter-flow-layout-small.png)
+
 ## 系统要求
 Android 4.0以上
 
@@ -59,3 +66,24 @@ build.gradle加入dependencies
 
 - xml中同时设置宽度的比例与具体值时，比例(ratio)的优先级高于真实值。
 - 宽度都不设置时，最大宽度为FlowLayout的宽度
+
+
+## License
+
+```
+Copyright 2016 Yuedong.li
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+> 有任何问题,欢迎发送邮件到app@codeboy.me交流.s
