@@ -86,4 +86,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-> 有任何问题,欢迎发送邮件到app@codeboy.me交流.s
+> 有任何问题,欢迎发送邮件到app@codeboy.me交流.
